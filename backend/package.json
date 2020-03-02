@@ -1,0 +1,19 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "backend do aplicativo de tarefas.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon src"
+  },
+  "author": "Rodrigo Gonçalves Santana",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.10.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
